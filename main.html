@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="flex h-screen bg-gray-800">
+    <!-- Sidebar -->
+    <div class="w-72 h-screen bg-gray-900 text-white flex flex-col rounded-r-3xl">
+        <!-- Sidebar header/logo -->
+        <div class="flex items-center justify-center h-20 shadow-lg">
+            <!-- Replace with your logo image or text -->
+            <div class="flex items-center justify-center h-20 shadow-lg rounded-r-xl bg-gray-900">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"
+                     alt="Manchester City Logo" class="h-12">
+            </div>
+            <span class="text-2xl font-semibold">FC Manchester City</span>
+        </div>
+
+        <hr class="border-gray-700">
+
+        <!-- Sidebar navigation -->
+        <div class="flex-1">
+            <nav class="mt-5 px-4 space-y-6">
+                <a href="#"
+                   class="flex items-center space-x-2 px-6 py-3 hover:bg-gray-800 rounded-r-md transition duration-200">
+                    <!-- SVG icon placeholder -->
+                    <svg class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m2.179 10.201c.055-.298.393-.734.934-.59.377.102.612.476.543.86-.077.529-.141.853-.141 1.529 0 4.47 3.601 8.495 8.502 8.495 2.173 0 4.241-.84 5.792-2.284l-1.251-.341c-.399-.107-.636-.519-.53-.919.108-.4.52-.637.919-.53l3.225.864c.399.108.637.519.53.919l-.875 3.241c-.107.399-.519.636-.919.53-.399-.107-.638-.518-.53-.918l.477-1.77c-1.829 1.711-4.27 2.708-6.838 2.708-5.849 0-9.968-4.8-10.002-9.93-.003-.473.027-1.119.164-1.864zm19.672 3.6c-.054.298-.392.734-.933.59-.378-.102-.614-.476-.543-.86.068-.48.139-.848.139-1.53 0-4.479-3.609-8.495-8.5-8.495-2.173 0-4.241.841-5.794 2.285l1.251.341c.4.107.638.518.531.918-.108.4-.519.637-.919.53l-3.225-.864c-.4-.107-.637-.518-.53-.918l.875-3.241c.107-.4.518-.638.918-.531.4.108.638.518.531.919l-.478 1.769c1.83-1.711 4.272-2.708 6.839-2.708 5.865 0 10.002 4.83 10.002 9.995 0 .724-.081 1.356-.164 1.8z"
+                                  fill-rule="nonzero"/>
+                        </svg>
+                    </svg>
+                    <span>Transfer Hub</span>
+                </a>
+                <a href="#"
+                   class="flex items-center space-x-2 px-6 py-3 hover:bg-gray-800 rounded-r-md transition duration-200">
+                    <!-- SVG icon placeholder -->
+                    <svg class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m2.179 10.201c.055-.298.393-.734.934-.59.377.102.612.476.543.86-.077.529-.141.853-.141 1.529 0 4.47 3.601 8.495 8.502 8.495 2.173 0 4.241-.84 5.792-2.284l-1.251-.341c-.399-.107-.636-.519-.53-.919.108-.4.52-.637.919-.53l3.225.864c.399.108.637.519.53.919l-.875 3.241c-.107.399-.519.636-.919.53-.399-.107-.638-.518-.53-.918l.477-1.77c-1.829 1.711-4.27 2.708-6.838 2.708-5.849 0-9.968-4.8-10.002-9.93-.003-.473.027-1.119.164-1.864zm19.672 3.6c-.054.298-.392.734-.933.59-.378-.102-.614-.476-.543-.86.068-.48.139-.848.139-1.53 0-4.479-3.609-8.495-8.5-8.495-2.173 0-4.241.841-5.794 2.285l1.251.341c.4.107.638.518.531.918-.108.4-.519.637-.919.53l-3.225-.864c-.4-.107-.637-.518-.53-.918l.875-3.241c.107-.4.518-.638.918-.531.4.108.638.518.531.919l-.478 1.769c1.83-1.711 4.272-2.708 6.839-2.708 5.865 0 10.002 4.83 10.002 9.995 0 .724-.081 1.356-.164 1.8z"
+                                  fill-rule="nonzero"/>
+                        </svg>
+                    </svg>
+                    <span>Reports</span>
+                </a>
+                <a href="#"
+                   class="flex items-center space-x-2 px-6 py-3 hover:bg-gray-800 rounded-r-md transition duration-200">
+                    <!-- SVG icon placeholder -->
+                    <svg class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m2.179 10.201c.055-.298.393-.734.934-.59.377.102.612.476.543.86-.077.529-.141.853-.141 1.529 0 4.47 3.601 8.495 8.502 8.495 2.173 0 4.241-.84 5.792-2.284l-1.251-.341c-.399-.107-.636-.519-.53-.919.108-.4.52-.637.919-.53l3.225.864c.399.108.637.519.53.919l-.875 3.241c-.107.399-.519.636-.919.53-.399-.107-.638-.518-.53-.918l.477-1.77c-1.829 1.711-4.27 2.708-6.838 2.708-5.849 0-9.968-4.8-10.002-9.93-.003-.473.027-1.119.164-1.864zm19.672 3.6c-.054.298-.392.734-.933.59-.378-.102-.614-.476-.543-.86.068-.48.139-.848.139-1.53 0-4.479-3.609-8.495-8.5-8.495-2.173 0-4.241.841-5.794 2.285l1.251.341c.4.107.638.518.531.918-.108.4-.519.637-.919.53l-3.225-.864c-.4-.107-.637-.518-.53-.918l.875-3.241c.107-.4.518-.638.918-.531.4.108.638.518.531.919l-.478 1.769c1.83-1.711 4.272-2.708 6.839-2.708 5.865 0 10.002 4.83 10.002 9.995 0 .724-.081 1.356-.164 1.8z"
+                                  fill-rule="nonzero"/>
+                        </svg>
+                    </svg>
+                    <span>Analytics</span>
+                </a>
+                <a href="#"
+                   class="flex items-center space-x-2 px-6 py-3 hover:bg-gray-800 rounded-r-md transition duration-200">
+                    <!-- SVG icon placeholder -->
+                    <svg class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m2.179 10.201c.055-.298.393-.734.934-.59.377.102.612.476.543.86-.077.529-.141.853-.141 1.529 0 4.47 3.601 8.495 8.502 8.495 2.173 0 4.241-.84 5.792-2.284l-1.251-.341c-.399-.107-.636-.519-.53-.919.108-.4.52-.637.919-.53l3.225.864c.399.108.637.519.53.919l-.875 3.241c-.107.399-.519.636-.919.53-.399-.107-.638-.518-.53-.918l.477-1.77c-1.829 1.711-4.27 2.708-6.838 2.708-5.849 0-9.968-4.8-10.002-9.93-.003-.473.027-1.119.164-1.864zm19.672 3.6c-.054.298-.392.734-.933.59-.378-.102-.614-.476-.543-.86.068-.48.139-.848.139-1.53 0-4.479-3.609-8.495-8.5-8.495-2.173 0-4.241.841-5.794 2.285l1.251.341c.4.107.638.518.531.918-.108.4-.519.637-.919.53l-3.225-.864c-.4-.107-.637-.518-.53-.918l.875-3.241c.107-.4.518-.638.918-.531.4.108.638.518.531.919l-.478 1.769c1.83-1.711 4.272-2.708 6.839-2.708 5.865 0 10.002 4.83 10.002 9.995 0 .724-.081 1.356-.164 1.8z"
+                                  fill-rule="nonzero"/>
+                        </svg>
+                    </svg>
+                    <span>Messages</span>
+                </a>
+                <a href="#"
+                   class="flex items-center space-x-2 px-6 py-3 hover:bg-gray-800 rounded-r-md transition duration-200">
+                    <!-- SVG icon placeholder -->
+                    <svg class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m2.179 10.201c.055-.298.393-.734.934-.59.377.102.612.476.543.86-.077.529-.141.853-.141 1.529 0 4.47 3.601 8.495 8.502 8.495 2.173 0 4.241-.84 5.792-2.284l-1.251-.341c-.399-.107-.636-.519-.53-.919.108-.4.52-.637.919-.53l3.225.864c.399.108.637.519.53.919l-.875 3.241c-.107.399-.519.636-.919.53-.399-.107-.638-.518-.53-.918l.477-1.77c-1.829 1.711-4.27 2.708-6.838 2.708-5.849 0-9.968-4.8-10.002-9.93-.003-.473.027-1.119.164-1.864zm19.672 3.6c-.054.298-.392.734-.933.59-.378-.102-.614-.476-.543-.86.068-.48.139-.848.139-1.53 0-4.479-3.609-8.495-8.5-8.495-2.173 0-4.241.841-5.794 2.285l1.251.341c.4.107.638.518.531.918-.108.4-.519.637-.919.53l-3.225-.864c-.4-.107-.637-.518-.53-.918l.875-3.241c.107-.4.518-.638.918-.531.4.108.638.518.531.919l-.478 1.769c1.83-1.711 4.272-2.708 6.839-2.708 5.865 0 10.002 4.83 10.002 9.995 0 .724-.081 1.356-.164 1.8z"
+                                  fill-rule="nonzero"/>
+                        </svg>
+                    </svg>
+                    <span>Administration</span>
+                </a>
+                <a href="#"
+                   class="flex items-center space-x-2 px-6 py-3 hover:bg-gray-800 rounded-r-md transition duration-200">
+                    <!-- SVG icon placeholder -->
+                    <svg class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m2.179 10.201c.055-.298.393-.734.934-.59.377.102.612.476.543.86-.077.529-.141.853-.141 1.529 0 4.47 3.601 8.495 8.502 8.495 2.173 0 4.241-.84 5.792-2.284l-1.251-.341c-.399-.107-.636-.519-.53-.919.108-.4.52-.637.919-.53l3.225.864c.399.108.637.519.53.919l-.875 3.241c-.107.399-.519.636-.919.53-.399-.107-.638-.518-.53-.918l.477-1.77c-1.829 1.711-4.27 2.708-6.838 2.708-5.849 0-9.968-4.8-10.002-9.93-.003-.473.027-1.119.164-1.864zm19.672 3.6c-.054.298-.392.734-.933.59-.378-.102-.614-.476-.543-.86.068-.48.139-.848.139-1.53 0-4.479-3.609-8.495-8.5-8.495-2.173 0-4.241.841-5.794 2.285l1.251.341c.4.107.638.518.531.918-.108.4-.519.637-.919.53l-3.225-.864c-.4-.107-.637-.518-.53-.918l.875-3.241c.107-.4.518-.638.918-.531.4.108.638.518.531.919l-.478 1.769c1.83-1.711 4.272-2.708 6.839-2.708 5.865 0 10.002 4.83 10.002 9.995 0 .724-.081 1.356-.164 1.8z"
+                                  fill-rule="nonzero"/>
+                        </svg>
+                    </svg>
+                    <span>Settings</span>
+                </a>
+            </nav>
+        </div>
+
+        <hr class="border-gray-700">
+
+        <!-- Sidebar footer or additional section -->
+        <div class="h-20 shadow-inner">
+            <!-- Additional content here -->
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 p-10 bg-gray-800 text-white overflow-auto">
+        <div class="flex items-center w-full mb-10">
+            <div class="flex flex-col">
+                <span class="text-sm font-medium">Today</span>
+                <span class="text-sm">Wed, Nov 15, 2023</span>
+            </div>
+            <div class="flex-grow relative ml-4">
+                <form class="w-full">
+                    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                    <div class="relative">
+                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            </svg>
+                        </div>
+                        <input type="search" id="default-search"
+                               class="bg-gray-700 block w-full p-4 pl-10 text-sm text-gray-900 border-gray-700 border rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                               placeholder="Search Mockups, Logos..." required>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- My Demands and Scouting List Blocks are here -->
+        <div class="flex gap-4 mb-6">
+
+            <div class="flex w-3/5 bg-gray-700 rounded-lg">
+                <div class="p-6 flex flex-col justify-between flex-grow">
+                    <div>
+                        <h2 class="font-bold text-white text-lg mb-3">My Demands</h2>
+                        <p class="text-gray-300">2 demands currently active.</p>
+                    </div>
+                    <button class="bg-green-600 hover:bg-green-500 text-white font-bold py-1 px-3 rounded text-sm self-start">
+                        Check
+                    </button>
+                </div>
+                <div class="flex-none relative w-48">
+                    <img src="pic1.png" alt="Person" class="rounded-r-lg object-cover h-full w-full">
+                </div>
+            </div>
+
+            <div class="w-2/5 bg-gray-700 rounded-lg flex flex-col justify-between p-4">
+                <div>
+                    <h2 class="font-bold text-white text-lg mb-3">Scouting List</h2>
+                    <p class="text-gray-300">11 players currently in scouting.</p>
+                </div>
+                <button class="bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-2 rounded mt-4 w-24">
+                    Check
+                </button>
+            </div>
+
+        </div>
+        <div class="flex flex-col gap-4 mb-6">
+            <div class="rounded-lg w-full">
+                <div class="flex justify-between">
+                    <div class="px-4 py-2">
+                        <h2 class="font-bold text-white text-lg mb-3">Transfer Hub</h2>
+                    </div>
+                    <div class="flex ml-4">
+                        <button class="text-white px-4 py-2 hover:bg-gray-600 rounded-t-lg">Demands</button>
+                        <button class="text-white px-4 py-2 hover:bg-gray-600 rounded-t-lg">Offers & Findings</button>
+                        <button class="text-white px-4 py-2 hover:bg-gray-600 rounded-t-lg">Scouting List</button>
+                        <button class="text-white px-4 py-2 hover:bg-gray-600 rounded-t-lg">Transfers</button>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <table class="min-w-full">
+                        <thead class="text-white bg-gray-700">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                                Headline
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                                Position
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                                Age range
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                                Foot
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                                Actions
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody class="bg-gray-800 text-white">
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Talented offensive midfielder
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Midfielder
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                2013-2015
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Right
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                OPEN
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Talented offensive midfielder
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Midfielder
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                2013-2015
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Right
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                OPEN
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Talented offensive midfielder
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Midfielder
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                2013-2015
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                Right
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                OPEN
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="w-1/4 bg-gray-800 p-5 text-white">
+        <div class="flex items-center mb-6">
+            <div class="flex-shrink-0 mr-3">
+                <img class="h-10 w-10 rounded-full" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                     alt="User profile">
+            </div>
+            <div>
+                <h3 class="text-sm font-medium">Joe Johnson</h3>
+                <p class="text-xs text-gray-400">some.email@gmail.com</p>
+            </div>
+        </div>
+
+        <hr class="border-gray-700">
+
+        <div class="mb-6 pt-5">
+            <h4 class="text-sm font-bold mb-3">Currently negotiating</h4>
+            <div class="flex items-center mb-6">
+                <div class="flex-shrink-0">
+                    <img class="h-10 w-10 rounded-full" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                         alt="User profile">
+                </div>
+                <div class="bg-gray-800 p-3 rounded mb-3">
+                    <h5 class="text-sm font-medium">Mark Marson</h5>
+                    <p class="text-xs text-gray-400">GNK Dinamo</p>
+                </div>
+            </div>
+            <div class="flex items-center mb-6">
+                <div class="flex-shrink-0">
+                    <img class="h-10 w-10 rounded-full" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                         alt="User profile">
+                </div>
+                <div class="bg-gray-800 p-3 rounded">
+                    <h5 class="text-sm font-medium">Jacob Doe</h5>
+                    <p class="text-xs text-gray-400">Paris Saint Germain</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
